@@ -28,3 +28,54 @@ na conta. No fim da listagem deve ser exibido o saldo atual da conta
 Os valores devem ser exibidos utilizando o formato R$ xxxx.xx,
 exemplo:
 1500.45 = R$ 1500.45
+
+/******************************************************************/
+parte II
+
+Separar as funções exisstentes de saque, depósito e extrato em funções.
+Criar duas novas fuções: cadastrar usuário(cliente) e cadastrar
+conta bancária.
+
+Precisamos deixar o código mais modularizado, para isso vamos criar 
+funções para as operações existentes: sacar, depositar e visualizar 
+histórico. Além disso, para versão 2 do sistema precimos criar duas novas
+funções: criar usuário(cliente do bando) e criar conta corrrente
+(vincular com usuário).
+
+Saque
+A função saue deve receber os argumentos apnas por nome (Keyword
+only). Sugestão de argumentos: saldo, valor, extrato, limite, numero_
+saque, limite_saques. Sugestão de retorno: Saldo e Extrato.
+
+Depósito
+A função depósito deve receber os argumentos apenas por posição
+(positional only). Sugestão de argumentos: saldo, valor, extrato.
+Sugestão de retorno: Saldo e Extrato.
+
+Extrato
+A função extrato deve receber os argumentos por posição e nome
+(positional only e keyword only). Argumentos posicionais:
+saldo, argumentos nomeados: extrato.
+
+Novas Funções 
+Precisamos criar duas novas funções: criar usuário e criar
+conta corrente. Fique a vontade para adicionar mais funções,
+exemplo: listar contas.
+
+Criar usuário(cliente)
+O programa deve armazenar os usuários em uma lista, um usuário
+é composto por: nome, data de nascimento, cpf e endereço.
+O endereço é uma string com o formato logradouro, nro - bairro -
+cidade/sigla estado. Deve ser armazenado somente os número do 
+CPF; Não podemos cadastrar  usuários com o mesmo CPF.
+
+Criar Conta Corrente
+O programa deve armazenar contas em uma lista, uma conta é 
+composta por: agência, número da conta e usuário. O número da 
+conta é sequencial, iniciando em 1. O número da agência é fixo:
+"0001". O usuário pode ter mais de uma conta, mas uma conta pertence 
+a somente um usuário.
+
+Dica
+Para vincular um usuário a uma conta, filtre a lista de usuários
+buscando o número do CPF informado para cada usuário da lista.
