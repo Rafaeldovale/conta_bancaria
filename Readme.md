@@ -31,7 +31,7 @@ exemplo:
 
 /********************************************************************/
 
-parte II
+--Desafio II--
 
 Separar as funções exisstentes de saque, depósito e extrato em funções.
 Criar duas novas fuções: cadastrar usuário(cliente) e cadastrar
@@ -90,7 +90,7 @@ buscando o número do CPF informado para cada usuário da lista.
 
 /******************************************************************/
 
-desafio 3
+--Desafio III--
 
 Com os novos conhecimentos adquiridos sobre data e hora, você foi 
 encarregado de implemnetar as seguintes funcionalidades no sistemas:
