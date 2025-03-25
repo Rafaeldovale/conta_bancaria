@@ -29,7 +29,7 @@ Os valores devem ser exibidos utilizando o formato R$ xxxx.xx,
 exemplo:
 1500.45 = R$ 1500.45
 
-/******************************************************************/
+/********************************************************************/
 
 parte II
 
@@ -87,3 +87,17 @@ Dica
 
 Para vincular um usuário a uma conta, filtre a lista de usuários
 buscando o número do CPF informado para cada usuário da lista.
+
+/******************************************************************/
+
+desafio 3
+
+Com os novos conhecimentos adquiridos sobre data e hora, você foi 
+encarregado de implemnetar as seguintes funcionalidades no sistemas:
+
+- Estabelecer um limite de 10 transações diárias para uma conta.
+
+- Se o usuário tentar fazer uma trans~ção após antigir o limite, deve
+ser informado que excedeu o número de transações permitidas para aquele dia.
+
+- Mostre no extrato, a data e hora de todas as transações.
