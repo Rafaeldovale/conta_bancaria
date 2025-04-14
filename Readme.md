@@ -101,3 +101,24 @@ encarregado de implemnetar as seguintes funcionalidades no sistemas:
 ser informado que excedeu o número de transações permitidas para aquele dia.
 
 - Mostre no extrato, a data e hora de todas as transações.
+
+/******************************************************************/
+
+--Desafio IV --
+
+Objetivo Geral
+
+Iniciar a modelagem do sistema bancário em POO. Adicionar classes
+para cliente e as operações bancárias: deposito e saque.
+
+Atualizar a implementação do sistema bancário, para armazenar os dados
+de clientes e contas bancárias em objetos ao invés de didcionários. O 
+código deve seguir o modelo de classes UML a seguir:
+
+
+Desafio Extra
+
+Após concluir a modelagem das classes e a criação dos métodos. Atualizar
+os métodos que tratam as opções do menu, para funcionarem com as classes
+modeladas.
+
